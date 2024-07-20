@@ -1,0 +1,51 @@
+appId: 'kittylauncher'
+productName: 'KittyTown Launcher'
+artifactName: '${productName}-setup-${version}.${ext}'
+
+copyright: '© 2024 KittyTeam. Tous droits réservés.'
+
+asar: true
+compression: 'maximum'
+
+files:
+  - '!{dist,.gitignore,.vscode,docs,dev-app-update.yml,.nvmrc,.eslintrc.json}'
+
+extraResources:
+  - 'libraries'
+
+# Windows Configuration
+win: 
+  target: 
+    - target: 'nsis'
+      arch: 'x64'
+
+# Windows Installer Configuration
+nsis:
+  oneClick: false
+  perMachine: false
+  allowElevation: true
+  allowToChangeInstallationDirectory: true
+
+# macOS Configuration
+mac:
+  target:
+    - target: 'dmg'
+      arch:
+        - 'x64'
+        - 'arm64'
+  artifactName: '${productName}-setup-${version}-${arch}.${ext}'
+  category: 'public.app-category.games'
+
+# Linux Configuration
+linux: 
+  target: 'AppImage'
+  maintainer: 'Hugo Battistelli'
+  vendor: 'Hugo Battistelli'
+  synopsis: 'Kitty Minecraft Launcher'
+  description: 'Launcher Minecraft Officiel de la team Kitty'
+  category: 'Game'
+
+
+directories:
+  buildResources: 'build'
+  output: 'dist'
