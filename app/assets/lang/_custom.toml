@@ -4,15 +4,15 @@
 title = "Kitty Launcher"
 
 [ejs.landing]
-mediaGitHubURL = "https://github.com/dscalzi/HeliosLauncher"
+mediaGitHubURL = "https://github.com/kipawepro/KittyTownLauncher"
 mediaTwitterURL = "#"
 mediaInstagramURL = "#"
 mediaYouTubeURL = "#"
-mediaDiscordURL = "https://discord.gg/zNWUXdt"
+mediaDiscordURL = "https://discord.gg/VR4Upm48F8"
 
 [ejs.settings]
-sourceGithubLink = "https://github.com/dscalZi/HeliosLauncher"
-supportLink = "https://github.com/dscalZi/HeliosLauncher/issues"
+sourceGithubLink = "https://github.com/kipawepro/KittyTownLauncher"
+supportLink = "https://github.com/kipawepro/KittyTownLauncher/issues"
 
 [ejs.welcome]
 welcomeHeader = "BIENVENU A KITTYTOWN"
