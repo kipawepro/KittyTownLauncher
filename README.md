@@ -8,8 +8,8 @@
 
 <p align="center">Participe a nos evenement minecraft en un seul clic !</p>
 
-![Screenshot 1](https://kittyteam.wstr.fr/images/kittytown/0.png)
-![Screenshot 2](https://kittyteam.wstr.fr/images/kittytown/2.png)
+![Screenshot 1](https://imgur.com/T3RAIAS)
+![Screenshot 2](https://imgur.com/anuOqQF)
 
 ## Features
 
