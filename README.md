@@ -11,27 +11,25 @@
 ![Screenshot 1](https://imgur.com/T3RAIAS.png)
 ![Screenshot 2](https://imgur.com/anuOqQF.png)
 
-## Features
+## Fonctionalité
 
 * 📂 Gestion des mods / modpacks / shaders.
   * Active & desactiver les mods optionel.
   * Plusieur version de modpack disponible dans le future !
   * Gestion des shaders et selection de shaders directement sur le launcher !
-* ⚙️ installation simple et efficace.
+* ⬇️ installation simple et efficace.
   * Seulement quelque clics pour installer et lancer un modpack!
   * Auto-reparation des fichier manquant ou casser ! (reinstallation du fichier).
 * 📰 Reste a jours !
   * Utilisation de la technologie RSS permettant de recevoir automatiquement les dernières actualités.
 * ⚙️ Paramètre complet.
   * Des paramètres simples complets. 
-* Mise a jours du launcher automatique (En dev).
+* 🔄Mise a jours du launcher automatique (En dev).
   * Mise a jours du launcher automatiser !
 
-This is not an exhaustive list. Download and install the launcher to gauge all it can do!
+#### Besoin d'un reseignement? [Passe par notre wiki.][wiki], ou alors rejoins notre [discord.][discord].
 
-#### Need Help? [Check the wiki.][wiki]
-
-#### Like the project? Leave a ⭐ star on the repository!
+#### Tu aime notre projet ??? alors n'hesite pas a metre une étoile ! 🌟
 
 ## Téléchargements :
 
@@ -51,31 +49,25 @@ If you download from the [Releases](https://github.com/kipawepro/KittyTownLaunch
 | Platform | File |
 | -------- | ---- |
 | Windows x64 | `Kitty-Launcher-setup-VERSION.exe` |
-| macOS x64 | NON |
-| macOS arm64 | NON |
-| Linux x64 | NON |
+| macOS x64 | ❌ |
+| macOS arm64 | ❌ |
+| Linux x64 | ❌ |
 
 ## La Console
 
-Pour ouvrire la console.
+Pour ouvrire la console:
 
 ```console
 ctrl + shift + i
 ```
 
-Ensure that you have the console tab selected. Do not paste anything into the console unless you are 100% sure of what it will do. Pasting the wrong thing can expose sensitive information.
+Assurez-vous que l'onglet de la console est sélectionné. Ne collez rien dans la console à moins d'être sûr à 100 % de ce qu'elle fera. Coller un mauvais élément peut exposer des informations sensibles.
 
-#### Export Output to a File
+#### Exporter la sortie vers un fichier
 
-If you want to export the console output, simply right click anywhere on the console and click **Save as..**
+Si vous souhaitez exporter la sortie de la console, faites simplement un clic droit n'importe où sur la console et cliquez sur **Enregistrer sous..**
 
 ![console example](https://i.imgur.com/T5e73jP.png)
-
-### Note on Third-Party Usage
-
-Please give credit to the original author and provide a link to the original source. This is free software, please do at least this much.
-
-For instructions on setting up Microsoft Authentication, see https://github.com/dscalzi/HeliosLauncher/blob/master/docs/MicrosoftAuth.md.
 
 ---
 
@@ -86,22 +78,19 @@ For instructions on setting up Microsoft Authentication, see https://github.com/
 * [v2 Rewrite Branch (Inactive)][v2branch]
 
 Si besoin d'aide, discord reste la meilleur option pour nous contacter.
-Ou depuis notre site : * [KittyTeam][kittyteam]
+Ou depuis notre site : [Site ofiiciel de la KittyTeam][kittyteam]
 
 [![discord](https://discordapp.com/api/guilds/1169648415936892990/embed.png?style=banner3)][discord]
 
 ---
 
-### See you ingame.
+### On ce retrouve bientôt !
 
+---
 
-[nodejs]: https://nodejs.org/en/ 'Node.js'
-[vscode]: https://code.visualstudio.com/ 'Visual Studio Code'
-[mainprocess]: https://electronjs.org/docs/tutorial/application-architecture#main-and-renderer-processes 'Main Process'
-[rendererprocess]: https://electronjs.org/docs/tutorial/application-architecture#main-and-renderer-processes 'Renderer Process'
-[chromedebugger]: https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome 'Debugger for Chrome'
-[discord]: https://discord.gg/zNWUXdt 'Discord'
-[wiki]: https://github.com/dscalzi/HeliosLauncher/wiki 'wiki'
-[nebula]: https://github.com/dscalzi/Nebula 'dscalzi/Nebula'
-[v2branch]: https://github.com/dscalzi/HeliosLauncher/tree/ts-refactor 'v2 branch'
+###Grand remerciement aux projets de [Daniel Scalzi][dscalzi]
+
+[dscalzi]: https://github.com/dscalzi
+[discord]: https://discord.gg/VR4Upm48F8 'Discord'
+[wiki]: https://github.com/kipawepro/KittyTownLauncher/wiki 'wiki'
 [kittyteam]: https://kittyteam.wstr.fr/home.html 'KittyTeam'
