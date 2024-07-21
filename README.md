@@ -85,7 +85,8 @@ For instructions on setting up Microsoft Authentication, see https://github.com/
 * [Nebula (Create Distribution.json)][nebula]
 * [v2 Rewrite Branch (Inactive)][v2branch]
 
-The best way to contact the developers is on Discord.
+Si besoin d'aide, discord reste la meilleur option pour nous contacter.
+Ou depuis notre site : * [KittyTeam][kittyteam]
 
 [![discord](https://discordapp.com/api/guilds/1169648415936892990/embed.png?style=banner3)][discord]
 
@@ -103,3 +104,4 @@ The best way to contact the developers is on Discord.
 [wiki]: https://github.com/dscalzi/HeliosLauncher/wiki 'wiki'
 [nebula]: https://github.com/dscalzi/Nebula 'dscalzi/Nebula'
 [v2branch]: https://github.com/dscalzi/HeliosLauncher/tree/ts-refactor 'v2 branch'
+[kittyteam]: https://kittyteam.wstr.fr/home.html 'KittyTeam'
