@@ -571,10 +571,6 @@ async function dlAsync(login = true) {
         }
         const start = Date.now()
 
-        // Attach a temporary listener to the client output.
-        // Will wait for a certain bit of text meaning that
-        // the client application has started, and we can hide
-        // the progress bar stuff.
         const tempListener = function(data){
             if(GAME_LAUNCH_REGEX.test(data.trim())){
                 const diff = Date.now()-start
@@ -586,7 +582,6 @@ async function dlAsync(login = true) {
             }
         }
 
-        // Listener for Discord RPC.
         const gameStateChange = function(data){
             data = data.trim()
             if(SERVER_JOINED_REGEX.test(data)){
@@ -605,16 +600,13 @@ async function dlAsync(login = true) {
         }
 
         try {
-            // Build Minecraft process.
             proc = pb.build()
 
-            // Bind listeners to stdout.
             proc.stdout.on('data', tempListener)
             proc.stderr.on('data', gameErrorListener)
 
             setLaunchDetails(Lang.queryJS('landing.dlAsync.doneEnjoyServer'))
 
-            // Init Discord Hook
             if(distro.rawDistribution.discord != null && serv.rawServer.discord != null){
                 DiscordWrapper.initRPC(distro.rawDistribution.discord, serv.rawServer.discord)
                 hasRPC = true
@@ -636,11 +628,6 @@ async function dlAsync(login = true) {
 
 }
 
-/**
- * News Loading Functions
- */
-
-// DOM Cache
 const newsContent                   = document.getElementById('newsContent')
 const newsArticleTitle              = document.getElementById('newsArticleTitle')
 const newsArticleDate               = document.getElementById('newsArticleDate')
@@ -650,14 +637,11 @@ const newsNavigationStatus          = document.getElementById('newsNavigationSta
 const newsArticleContentScrollable  = document.getElementById('newsArticleContentScrollable')
 const nELoadSpan                    = document.getElementById('nELoadSpan')
 
-// News slide caches.
 let newsActive = false
 let newsGlideCount = 0
 
 /**
- * Show the news UI via a slide animation.
- * 
- * @param {boolean} up True to slide up, otherwise false. 
+ * @param {boolean} up
  */
 function slide_(up){
     const lCUpper = document.querySelector('#landingContainer > #upper')
@@ -677,8 +661,6 @@ function slide_(up){
         lCLRight.style.top = '-200vh'
         newsBtn.style.top = '130vh'
         newsContainer.style.top = '0px'
-        //date.toLocaleDateString('en-US', {month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: 'numeric'})
-        //landingContainer.style.background = 'rgba(29, 29, 29, 0.55)'
         landingContainer.style.background = 'rgba(0, 0, 0, 0.50)'
         setTimeout(() => {
             if(newsGlideCount === 1){
@@ -703,9 +685,7 @@ function slide_(up){
     }
 }
 
-// Bind news button.
 document.getElementById('newsButton').onclick = () => {
-    // Toggle tabbing.
     if(newsActive){
         $('#landingContainer *').removeAttr('tabindex')
         $('#newsContainer *').attr('tabindex', '-1')
@@ -723,16 +703,12 @@ document.getElementById('newsButton').onclick = () => {
     newsActive = !newsActive
 }
 
-// Array to store article meta.
 let newsArr = null
 
-// News load animation listener.
 let newsLoadingListener = null
 
-/**
- * Set the news loading animation.
- * 
- * @param {boolean} val True to set loading animation, otherwise false.
+/** 
+ * @param {boolean} val
  */
 function setNewsLoading(val){
     if(val){
@@ -755,7 +731,6 @@ function setNewsLoading(val){
     }
 }
 
-// Bind retry button.
 newsErrorRetry.onclick = () => {
     $('#newsErrorFailed').fadeOut(250, () => {
         initNews()
@@ -772,10 +747,7 @@ newsArticleContentScrollable.onscroll = (e) => {
 }
 
 /**
- * Reload the news without restarting.
- * 
- * @returns {Promise.<void>} A promise which resolves when the news
- * content has finished loading and transitioning.
+ * @returns {Promise.<void>}
  */
 function reloadNews(){
     return new Promise((resolve, reject) => {
@@ -790,9 +762,6 @@ function reloadNews(){
 
 let newsAlertShown = false
 
-/**
- * Show the news alert indicating there is new news.
- */
 function showNewsAlert(){
     newsAlertShown = true
     $(newsButtonAlert).fadeIn(250)
@@ -809,11 +778,7 @@ async function digestMessage(str) {
 }
 
 /**
- * Initialize News UI. This will load the news and prepare
- * the UI accordingly.
- * 
- * @returns {Promise.<void>} A promise which resolves when the news
- * content has finished loading and transitioning.
+ * @returns {Promise.<void>}
  */
 async function initNews(){
 
@@ -824,14 +789,12 @@ async function initNews(){
     newsArr = news?.articles || null
 
     if(newsArr == null){
-        // News Loading Failed
         setNewsLoading(false)
 
         await $('#newsErrorLoading').fadeOut(250).promise()
         await $('#newsErrorFailed').fadeIn(250).promise()
 
     } else if(newsArr.length === 0) {
-        // No News Articles
         setNewsLoading(false)
 
         ConfigManager.setNewsCache({
