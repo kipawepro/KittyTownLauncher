@@ -8,8 +8,8 @@
 
 <p align="center">Participe a nos evenement minecraft en un seul clic !</p>
 
-![Screenshot 1](https://imgur.com/T3RAIAS)
-![Screenshot 2](https://imgur.com/anuOqQF)
+![Screenshot 1](https://imgur.com/T3RAIAS.png)
+![Screenshot 2](https://imgur.com/anuOqQF.png)
 
 ## Features
 
