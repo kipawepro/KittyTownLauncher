@@ -14,12 +14,12 @@
 ## Fonctionalité
 
 * 📂 Gestion des mods / modpacks / shaders.
-  * Active & desactiver les mods optionel.
-  * Plusieur version de modpack disponible dans le future !
-  * Gestion des shaders et selection de shaders directement sur le launcher !
+  * Active & désactive les mods optionnels.
+  * Plusieurs versions de modpack disponible dans le futur !
+  * Gestion des shaders et sélection de shaders directement sur le launcher !
 * ⬇️ installation simple et efficace.
-  * Seulement quelque clics pour installer et lancer un modpack!
-  * Auto-reparation des fichier manquant ou casser ! (reinstallation du fichier).
+  * Seulement quelques clics pour installer et lancer un modpack!
+  * auto-réparation des fichier manquant ou casser ! (réinstallation du fichier).
 * 📰 Reste a jours !
   * Utilisation de la technologie RSS permettant de recevoir automatiquement les dernières actualités.
 * ⚙️ Paramètre complet.
