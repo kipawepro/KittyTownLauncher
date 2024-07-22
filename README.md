@@ -88,7 +88,7 @@ Ou depuis notre site : [Site officiel de la KittyTeam][kittyteam]
 
 ---
 
-##Grand remerciement aux projets de [Daniel Scalzi][dscalzi]
+Grand remerciement aux projets de [Daniel Scalzi][dscalzi]
 
 [dscalzi]: https://github.com/dscalzi
 [discord]: https://discord.gg/VR4Upm48F8 'Discord'
