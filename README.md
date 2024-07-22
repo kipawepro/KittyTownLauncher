@@ -27,7 +27,7 @@
 * 🔄Mise a jours du launcher automatique (En dev).
   * Mise a jours du launcher automatiser !
 
-#### Besoin d'un reseignement? [Passe par notre wiki.][wiki], ou alors rejoins notre [discord.][discord].
+#### Besoin d'un reseignement? [Passe par notre wiki.][wiki], ou alors rejoins notre [discord][discord].
 
 #### Tu aime notre projet ??? alors n'hesite pas a metre une étoile ! 🌟
 
@@ -74,17 +74,17 @@ Si vous souhaitez exporter la sortie de la console, faites simplement un clic dr
 ## Resources
 
 * [Wiki][wiki]
-* [Nebula (Create Distribution.json)][nebula]
-* [v2 Rewrite Branch (Inactive)][v2branch]
+* [Site ofiiciel de la KittyTeam][kittyteam]
+* [Daniel Scalzi][dscalzi]
 
 Si besoin d'aide, discord reste la meilleur option pour nous contacter.
-Ou depuis notre site : [Site ofiiciel de la KittyTeam][kittyteam]
+Ou depuis notre site : [Site officiel de la KittyTeam][kittyteam]
 
 [![discord](https://discordapp.com/api/guilds/1169648415936892990/embed.png?style=banner3)][discord]
 
 ---
 
-### On ce retrouve bientôt !
+#### On ce retrouve bientôt !
 
 ---
 
