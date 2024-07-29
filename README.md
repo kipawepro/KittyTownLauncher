@@ -53,24 +53,6 @@ If you download from the [Releases](https://github.com/kipawepro/KittyTownLaunch
 | macOS arm64 | ❌ |
 | Linux x64 | ❌ |
 
-## La Console
-
-Pour ouvrire la console:
-
-```console
-ctrl + shift + i
-```
-
-Assurez-vous que l'onglet de la console est sélectionné. Ne collez rien dans la console à moins d'être sûr à 100 % de ce qu'elle fera. Coller un mauvais élément peut exposer des informations sensibles.
-
-#### Exporter la sortie vers un fichier
-
-Si vous souhaitez exporter la sortie de la console, faites simplement un clic droit n'importe où sur la console et cliquez sur **Enregistrer sous..**
-
-![console example](https://i.imgur.com/T5e73jP.png)
-
----
-
 ## Resources
 
 * [Wiki][wiki]
