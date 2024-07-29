@@ -75,4 +75,4 @@ Grand remerciement aux projets de [Daniel Scalzi][dscalzi]
 [dscalzi]: https://github.com/dscalzi
 [discord]: https://discord.gg/VR4Upm48F8 'Discord'
 [wiki]: https://github.com/kipawepro/KittyTownLauncher/wiki 'wiki'
-[kittyteam]: https://kittyteam.wstr.fr/home.html 'KittyTeam'
+[kittyteam]: https://kittyteam.wstr.fr 'KittyTeam'
