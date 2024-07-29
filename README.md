@@ -44,7 +44,7 @@ Telechargement disponible depuis : [GitHub Releases](https://github.com/kipawepr
 
 **Platforms supporté :**
 
-If you download from the [Releases](https://github.com/kipawepro/KittyTownLauncher/releases) tab, select the installer for your system.
+Telecharger le launcher depuis l'onglet [Releases](https://github.com/kipawepro/KittyTownLauncher/releases) de github, ou depuis notre [Site officiel de la KittyTeam][kittyteam].
 
 | Platform | File |
 | -------- | ---- |
@@ -56,7 +56,7 @@ If you download from the [Releases](https://github.com/kipawepro/KittyTownLaunch
 ## Resources
 
 * [Wiki][wiki]
-* [Site ofiiciel de la KittyTeam][kittyteam]
+* [Site officiel de la KittyTeam][kittyteam]
 * [Daniel Scalzi][dscalzi]
 
 Si besoin d'aide, discord reste la meilleur option pour nous contacter.
