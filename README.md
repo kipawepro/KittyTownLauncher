@@ -2,7 +2,7 @@
 
 <h1 align="center">Kitty Launcher</h1>
 
-<em><h5 align="center">(formerly Electron Launcher)</h5></em>
+<em><h5 align="center">(Basé sur Helios launcher de [Daniel Scalzi][dscalzi])</h5></em>
 
 [<p align="center"><img src="https://img.shields.io/github/actions/workflow/status/kipawepro/KittyTownLauncher/build.yml?branch=master&style=for-the-badge" alt="gh actions">](https://github.com/kipawepro/KittyTownLauncher/actions) [<img src="https://img.shields.io/github/downloads/kipawepro/KittyTownLauncher/total.svg?style=for-the-badge" alt="downloads">](https://github.com/kipawepro/KittyTownLauncher/releases)</p>
 
@@ -27,7 +27,7 @@
 * 🔄Mise a jours du launcher automatique (En dev).
   * Mise a jours du launcher automatiser !
 
-#### Besoin d'un reseignement? [Passe par notre wiki.][wiki], ou alors rejoins notre [discord][discord].
+#### Besoin d'un reseignement? [Passe par notre wiki][wiki], ou alors rejoins notre [discord][discord].
 
 #### Tu aime notre projet ??? alors n'hesite pas a metre une étoile ! 🌟
 
