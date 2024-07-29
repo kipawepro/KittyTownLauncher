@@ -37,10 +37,10 @@ Telechargement disponible depuis : [GitHub Releases](https://github.com/kipawepr
 
 #### Dernière version
 
-[![](https://img.shields.io/github/release/dscalzi/HeliosLauncher.svg?style=flat-square)](https://github.com/kipawepro/KittyTownLauncher/releases/latest)
+[![](https://img.shields.io/github/release/kipawepro/KittyTownLauncher.svg?style=flat-square)](https://github.com/kipawepro/KittyTownLauncher/releases/latest)
 
 #### Dernière version test
-[![](https://img.shields.io/github/release/dscalzi/HeliosLauncher/all.svg?style=flat-square)](https://github.com/kipawepro/KittyTownLauncher/releases)
+[![](https://img.shields.io/github/release/kipawepro/KittyTownLauncher/all.svg?style=flat-square)](https://github.com/kipawepro/KittyTownLauncher/releases)
 
 **Platforms supporté :**
 
